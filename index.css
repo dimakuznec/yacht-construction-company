@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500&family=Saira:wght@400;500;600&display=swap');
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+  
+  ol, ul {
+    list-style: none;
+}
+  
+  img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: 'Saira', sans-serif;
+}
+
+.container {
+    max-width: 1669px;
+}
+
+.background {
+ position: absolute;
+ width: 1121px;
+ height: 850px;
+ left: 499px;
+ top: 0px;
+}
+
+.sea {
+ position: absolute;
+ width: 1100px;
+ height: 374.59px;
+ left: 519.8px;
+ top: 473.41px;
+}
+
+.wave {
+ position: absolute;
+ width: 900px;
+ height: 171.13px;
+ left: 683px;
+ top: 670px;
+}
+
+.yacht {
+ position: absolute;
+ width: 1000.34px;
+ height: 660.62px;
+ left: 529.06px;
+ top: 156px;
+ background: url(speed-yacht-vector-2027578-removebg-preview.png);
+}
+
+.logo {
+ position: absolute;
+ width: 188.1px;
+ height: 62.5px;
+ left: 100px;
+ top: 50px;
+}
+
+.heading {
+ position: absolute;
+ width: 183px;
+ height: 47px;
+ left: 98px;
+ top: 327px;
+ font-family: 'Saira';
+ font-style: normal;
+ font-weight: 700; 
+ font-size: 30px;
+ line-height: 47px;
+ color: #1360A6;   
+}
+
+.underline {
+ position: absolute;
+ width: 98px;
+ height: 4px;
+ left: 100px;
+ top: 379px;
+ background: #0E7EAE;
+}
+
+.description {
+ position: absolute;
+ width: 399px;
+ height: 208px;
+ left: 100px;
+ top: 403px;
+ font-family: 'Hind';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 26px;
+ color: #000000;
+}
+
+.button {
+ display: flex;
+ flex-direction: row;
+ align-items: flex-start;
+ padding: 8px 27px;
+ gap: 10px;
+ position: absolute;
+ width: 131px;
+ height: 39px;
+ left: 100px;
+ top: 636px;
+ background: #1360A6;
+ border-radius: 5px;
+}
+
+.read-more { 
+ width: 77px;
+ height: 23px;
+ font-style: normal;
+ font-weight: 400;
+ font-size: 15px;
+ line-height: 15px;
+ text-decoration: none;
+ color: #FFFFFF;
+ flex: none;
+ order: 0;
+ flex-grow: 0;
+}
+
+.full {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ padding: 8px 27px;
+ gap: 10px;
+ position: absolute;
+ width: 131px;
+ height: 39px;
+ left: 1438px;
+ top: 68px;
+ background: #FFFFFF;
+ border-radius: 5px;
+}
+
+.link {
+ width: 51px;
+ height: 23px;
+ font-style: normal;
+ font-weight: 400;
+ font-size: 15px;
+ line-height: 15px;
+ text-decoration: none;
+ text-align: center;
+ color: #1360A6;
+ flex: none;
+ order: 0;
+ flex-grow: 0;
+}
+
+.links {
+ display: flex;
+ flex-direction: row;
+ align-items: flex-start;
+ padding: 0px;
+ gap: 60px;
+ position: absolute;
+ width: 715px;
+ height: 34px;
+ left: 644px;
+ top: 70px; 
+}
+
+.Home-link {
+ width: 54px;
+ height: 34px;
+ font-style: normal;
+ font-weight: 400;
+ font-size: 30px;
+ line-height: 34px;
+ text-decoration: none;
+ color: #FFFFFF;
+ display: flex;
+ order: 0;
+ flex-grow: 0;
+}
+
+.About-link {
+ width: 63px;
+ height: 34px;
+ font-style: normal;
+ font-weight: 400;
+ font-size: 30px;
+ line-height: 34px;
+ text-decoration: none;
+ color: #FFFFFF;
+ display: flex;
+ order: 1;
+ flex-grow: 0;
+}
+
+.Company-link {
+ width: 81px;
+ height: 34px;
+ font-style: normal;
+ font-weight: 400;
+ font-size: 30px;
+ line-height: 34px;
+ text-decoration: none;
+ color: #FFFFFF;
+ display: flex;
+ order: 2;
+ flex-grow: 0;    
+}
+
+.Reviews-link {
+ width: 78px;
+ height: 34px;
+ text-decoration: none;
+ font-style: normal;
+ font-weight: 400;
+ font-size: 30px;
+ line-height: 34px;
+ color: #FFFFFF;
+ display: flex;
+ order: 3;
+ flex-grow: 0;
+}
+
+.News-link {
+ width: 58px;
+ height: 34px;
+ text-decoration: none;
+ font-style: normal;
+ font-weight: 400;
+ font-size: 30px;
+ line-height: 34px;
+ color: #FFFFFF;
+ flex: none;
+ order: 4;
+ flex-grow: 0;
+}
+
+.Contact-us-link {
+ width: 58px;
+ height: 34px;
+ text-decoration: none;
+ font-style: normal;
+ font-weight: 400;
+ font-size: 30px;
+ line-height: 20px;
+ color: #FFFFFF;
+ display: flex;
+ order: 5;
+ flex-grow: 0;
+}
